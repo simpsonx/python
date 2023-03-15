@@ -34,7 +34,7 @@ words =' '
 for seg in seg_list:
   words = words + seg + ' '
 print(words)
-font=r"C:\WINDOWS\Fonts\xindexingcao57.ttf"
+font=r"xindexingcao57.ttf"
 color_mask = imread("love.jpg")
 cloud = wc.WordCloud( font_path=font,#设置字体
            background_color="black", #背景颜色
